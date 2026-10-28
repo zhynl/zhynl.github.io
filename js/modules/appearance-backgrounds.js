@@ -419,7 +419,7 @@ function appearanceBackgroundDefaultUrl() {
   var dark=!!(root && root.getAttribute('data-theme') === 'dark');
   var width=typeof window !== 'undefined' ? window.innerWidth : (root && root.clientWidth);
   var mobile=typeof width === 'number' && width <= 768;
-  return mobile ? (dark ? 'https://picsum.photos/id/1039/1920/1080' : 'https://picsum.photos/id/1018/1920/1080') : (dark ? 'https://picsum.photos/id/1044/1920/1080' : 'https://picsum.photos/id/1015/1920/1080');
+  return mobile ? (dark ? '/assets/bg/sjbgzrn.webp' : '/assets/bg/sjbgzrn.webp') : (dark ? '/assets/bg/zrn.webp' : '/assets/bg/zrn.webp');
 }
 function appearanceBackgroundWatchEnvironment() {
   if(apBackgroundState.environmentListening) return;
