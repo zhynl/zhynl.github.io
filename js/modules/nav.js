@@ -78,7 +78,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: 'BFABZ-IKICW-HJGRB-Y3LF2-WCWQQ-GDBS5',
+    key: 'ARGBZ-XS667-YO4XC-HXE6P-ZTBXQ-CVFD6',
     output: 'jsonp',
   },
   dataType: 'jsonp',
