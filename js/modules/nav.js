@@ -78,7 +78,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: 'YOUR_TENCENT_MAP_KEY',
+    key: 'BFABZ-IKICW-HJGRB-Y3LF2-WCWQQ-GDBS5',
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -123,7 +123,7 @@ function showWelcome() {
   }
 
   //站长所在地坐标（示例值：北京天安门 116.397428, 39.90923）。换成你自己的经纬度，或删掉 dist 与下面这句问候里的距离部分
-  let dist = getDistance(116.397428, 39.90923, ipLoacation.result.location.lng, ipLoacation.result.location.lat);
+  let dist = getDistance(87.62710000, 43.79340000, ipLoacation.result.location.lng, ipLoacation.result.location.lat);
   let ad = ipLoacation.result.ad_info;
   let pos = ad.nation === "中国" ? [ad.province, ad.city, ad.district].filter(Boolean).join(" ") : ad.nation;
   let ip = ipLoacation.result.ip;
